@@ -1,0 +1,428 @@
+@media(max-width:1199px){
+
+}
+@media (min-width: 767px) and (max-width:991px){
+	
+header .header-card .logo img {
+    width: 150px;
+}
+	.banner-section:after{
+		background: rgba(0 0 0 / 13%);
+	}
+.Application-section .app-img{
+	display: none;
+}
+section,.Application-section{
+		padding: 40px 0;
+	}
+   .Application-section .app-img{
+		display: none;
+	}
+	.section-title h2 {
+	    font-size: 30px;
+	    margin-bottom: 15px;
+	}
+	.section-title p {
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.Application-section .app-text {
+	    margin: 0;
+	}
+	.Application-section .app-text .app-info .app-food {
+	    width: 74px;
+	    height: 74px;
+	    line-height: 74px;
+	}
+	.Application-section .app-text .app-info .app-food img {
+	    width: 40px;
+	    height: 40px;
+	    text-align: center;
+	    margin: 0 auto;
+	    line-height: 40px;
+	}
+	.Application-section .app-text .app-info {
+	    margin: 30px 0;
+	}
+	.Application-section .app-text .btn-store {
+	    width: 128px;
+	    display: inline-block;
+	    margin-right: 0;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.contact-form .btn-submit{
+		width: 250px;
+	}
+	footer .footer-card ul {
+	    text-align: center;
+	}
+	footer .footer-card ul li{
+		margin: 15px 0;
+	}
+	footer .footer-card .footer-logo {
+	    width: 250px;
+	    margin: 0 auto 30px;
+	    display: block;
+	}
+	footer .footer-card ul.social-link{
+		margin: 0;
+	}
+	.contact-form{
+		padding: 20px;
+	}
+	.Unique-portfolio .Unique-main {
+	    width: 100%;
+	    height: 100%;
+	    margin: 0 0 30px;
+	}
+	.Unique-box {
+	    width: auto;
+	    margin: 0 auto;
+	}
+	.banner-section {
+	    min-height: auto;
+	}
+	header .header-card .menu-links .menu-list ul{
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 116%;
+		background: #fff;
+		z-index: 12;
+		width: 100%;
+		text-align: left;
+	}
+	header .header-card {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    text-align: center;
+	}
+	header .header-card .menu-links .menu-list .mobile-menu{
+		display: block;
+		font-size: 24px;
+		color: #89c749;
+	}
+	header .header-card .logo {
+	    margin-bottom: 15px;
+	}
+	.banner-section .banner-text h1 {
+	    font-family: Avenir Next;
+	    font-style: normal;
+	    font-weight: bold;
+	    font-size: 30px;
+	    line-height: 40px;
+	    color: #FF7A00;
+	}
+	.banner-section .banner-text {
+    margin: 0;
+    padding: 35px 0;
+}
+.banner-section .banner-text p{
+	font-size: 14px;
+	line-height: 22px;
+	margin: 20px 0;
+}
+header .header-card .menu-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header-card .menu-links .menu-list ul li {
+    display: block;
+    border-bottom: solid 1px #f1f1f1;
+}
+
+header .header-card .menu-links .menu-list ul li:last-child {
+    border: none;
+}
+
+header .header-card .menu-links .menu-list ul li a {
+    padding: 10px 15px;
+}
+
+.open-menu{
+	display: block !important;
+}
+
+.mobile-padding-0{
+	padding: 0;
+}
+.app-sliderslider:before{
+	content: '';
+	background-image: url('../images/mobileframe.png');
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-size: cover;
+	overflow: hidden;
+}
+.app-sliderslider {
+    width: 300px;
+    height: 600px;
+    position: relative;
+    margin: -10px auto 50px;
+    overflow: hidden;
+}
+.app-frame {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 17px;
+    overflow: hidden;
+    border-radius: 30px;
+    height: 582px;
+    /* background: #fff; */
+}
+.Restaurant-section .section-title {
+    width: 100%;
+}
+.Unique-portfolio .Unique-main-img img ,.Unique-portfolio .Unique-main img{
+	width: 100% !important;
+}
+.Customer-section .section-title h2 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.Customer-section .section-title small {
+    font-size: 20px;
+    margin: 0;
+}
+
+.Customer-section .section-title {
+    margin: 0;
+}
+.Application-section .app-text h2 {
+    font-size: 22px;
+    line-height: 26px;
+}
+.app-social ul li {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.app-social ul li a i {
+    font-size: 18px;
+}
+}
+@media(max-width:767px){
+	.app-social ul li {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.app-social ul li a i {
+    font-size: 18px;
+}
+	.Application-section .app-text h2 {
+    font-size: 22px;
+    line-height: 26px;
+}
+	.Customer-section .section-title h2 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.Customer-section .section-title small {
+    font-size: 20px;
+    margin: 0;
+}
+
+.Customer-section .section-title {
+    margin: 0;
+}
+	.Unique-portfolio .Unique-main-img img,.Unique-portfolio .Unique-main img{
+	width: 100% !important;
+}
+	.Restaurant-section .section-title {
+    width: 100%;
+}
+	section,.Application-section{
+		padding: 40px 0;
+	}
+   .Application-section .app-img{
+		display: none;
+	}
+	.section-title h2 {
+	    font-size: 30px;
+	    margin-bottom: 15px;
+	}
+	.section-title p {
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	.Application-section .app-text {
+	    margin: 0;
+	}
+	.Application-section .app-text .app-info .app-food {
+	    width: 74px;
+	    height: 74px;
+	    line-height: 74px;
+	}
+	.Application-section .app-text .app-info .app-food img {
+	    width: 40px;
+	    height: 40px;
+	    text-align: center;
+	    margin: 0 auto;
+	    line-height: 40px;
+	}
+	.Application-section .app-text .app-info {
+	    margin: 30px 0;
+	}
+	.Application-section .app-text .btn-store {
+	    width: 128px;
+	    display: inline-block;
+	    margin-right: 0;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.contact-form .btn-submit{
+		width: 100%;
+	}
+	footer .footer-card ul {
+	    text-align: center;
+	}
+	footer .footer-card ul li{
+		margin: 15px 0;
+	}
+	footer .footer-card .footer-logo {
+	    width: 250px;
+	    margin: 0 auto 30px;
+	    display: block;
+	}
+	footer .footer-card ul.social-link{
+		margin: 0;
+	}
+	.contact-form{
+		padding: 20px;
+	}
+	.Unique-portfolio .Unique-main {
+	    width: 100%;
+	    height: 100%;
+	    margin: 30px 0;
+	}
+	.Unique-box {
+	    width: auto;
+	    margin: 0 auto;
+	}
+	.banner-section {
+	    min-height: auto;
+	}
+	header .header-card .menu-links .menu-list ul{
+		display: none;
+		position: absolute;
+    left: 0;
+    top: 116%;
+    background: #fff;
+    z-index: 12;
+    width: 100%;
+    text-align: left;
+	}
+	header .header-card {
+	    display: block;
+	    align-items: center;
+	    justify-content: space-between;
+	    text-align: center;
+	}
+	header .header-card .menu-links .menu-list .mobile-menu{
+		display: block;
+		font-size: 24px;
+		color: #89c749;
+	}
+	header .header-card .logo {
+	    margin-bottom: 15px;
+	}
+	.banner-section .banner-text h1 {
+	    font-family: Avenir Next;
+	    font-style: normal;
+	    font-weight: bold;
+	    font-size: 30px;
+	    line-height: 40px;
+	    color: #FF7A00;
+	}
+	.banner-section .banner-text {
+    margin: 0;
+    padding: 35px 0;
+}
+.banner-section .banner-text p{
+	font-size: 14px;
+	line-height: 22px;
+	margin: 20px 0;
+}
+header .header-card .menu-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-section:after{
+		background: rgba(0 0 0 / 13%);
+	}
+	header .header-card .menu-links .menu-list ul li {
+    display: block;
+    border-bottom: solid 1px #f1f1f1;
+}
+
+header .header-card .menu-links .menu-list ul li:last-child {
+    border: none;
+}
+
+header .header-card .menu-links .menu-list ul li a {
+    padding: 10px 15px;
+}
+.open-menu{
+	display: block !important;
+}
+.mobile-padding-0{
+	padding: 0;
+}
+.app-sliderslider:before{
+	content: '';
+	background-image: url('../images/mobileframe.png');
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-size: cover;
+	overflow: hidden;
+}
+.app-sliderslider {
+    width: 300px;
+    height: 600px;
+    position: relative;
+    margin: -10px auto 50px;
+    overflow: hidden;
+}
+.app-frame {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 17px;
+    overflow: hidden;
+    border-radius: 30px;
+    height: 582px;
+    /* background: #fff; */
+}
+header .header-card .logo img {
+    width: 150px;
+}
+.our-story-img{
+	background-color: transparent;
+	height: auto;
+}
+.our-story-img.What-do{
+	height: auto;
+}
+section.ourstory-section h2{
+	margin: 15px 0;
+}
+}
+
